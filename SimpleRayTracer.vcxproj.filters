@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="graphics2d">
+      <UniqueIdentifier>{14f77293-0ae8-4ab9-8f7d-4470924bd6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maths">
+      <UniqueIdentifier>{3ed1411a-6bb2-4413-87bb-e9cb3c1599b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simpleraytracer">
+      <UniqueIdentifier>{ff17570a-564c-4213-bb23-7b79872f22db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simplewin2d">
+      <UniqueIdentifier>{18b44dd6-8c62-460e-ac1a-51b37f563bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{dbe3686c-afc1-4ffe-b4ac-1a9e3b11ba75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="graphics2d\graphics2d.cpp">
+      <Filter>graphics2d</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\main.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\material.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\object.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\rayplane.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\raysphere.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleraytracer\world.cpp">
+      <Filter>simpleraytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="simplewin2d\simplewin2d.cpp">
+      <Filter>simplewin2d</Filter>
+    </ClCompile>
+    <ClCompile Include="simplewin2d\simwin_framework.cpp">
+      <Filter>simplewin2d</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\clock.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphics2d\graphics2d.h">
+      <Filter>graphics2d</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\mathstypes.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\plane.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\plane2.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec2.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\vec3.h">
+      <Filter>maths</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\colour.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\geometry.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\light.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\material.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\object.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\ray.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\rayplane.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\raysphere.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleraytracer\world.h">
+      <Filter>simpleraytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="simplewin2d\simplewin2d.h">
+      <Filter>simplewin2d</Filter>
+    </ClInclude>
+    <ClInclude Include="simplewin2d\simwin_framework.h">
+      <Filter>simplewin2d</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\clock.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\timer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
